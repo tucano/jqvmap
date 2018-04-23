@@ -2,20 +2,17 @@
   {
     "name": "read_data",
     "file_name": "./source/natural_earth_vector/110m_cultural/ne_110m_admin_0_countries_lakes.shp",
-    "filter": "CONTINENT = 'Europe' AND ADMIN != 'Russia'"
-  },
-  {
-    "name": "remove",
-    "where": "name == 'XXXXXX'"
+    "filter": "REGION_WB = 'East Asia & Pacific'",
+    "longitude0": 25
   },
   {
     "name": "write_data",
     "format": "jqvmap",
-    "file_name": "./output/jquery.vmap.europe.js",
+    "file_name": "./output/jquery.vmap.asia_pacific.js",
     "params": {
       "code_field": "SOV_A3",
       "name_field": "ADMIN",
-      "name": "europe"
+      "name": "asia_pacific"
     }
   }
 ]

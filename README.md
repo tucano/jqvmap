@@ -518,7 +518,7 @@ grunt test
 grunt build
 ```
 
-OSX:
+OSX FIX PHANTOMJS:
 
 ```
 cd node_modules/phantomjs/lib/phantom/
