@@ -8,7 +8,8 @@ import os
 import copy
 from osgeo import ogr
 from osgeo import osr
-from booleano.parser import Grammar, EvaluableParseManager, SymbolTable, Bind
+from booleano.parser import Grammar, SymbolTable, Bind
+from booleano.parser.core import EvaluableParseManager
 from booleano.operations import Variable
 
 

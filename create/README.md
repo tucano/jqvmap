@@ -24,6 +24,36 @@ You will need to have the following installed:
 Installing Software:
 ---
 
+__UBUNTU:__
+
+Core:
+
+```bash
+sudo apt-get install libfontconfig
+sudo apt install nodejs
+sudo apt install npm
+sudo ln -s `which nodejs` /usr/bin/node
+npm install
+grunt test
+grunt build
+```
+
+
+Create:
+
+```bash
+sudo apt install python2.7
+sudo apt install python-pip
+sudo apt install gdal-bin
+sudo apt install python-gdal
+sudo apt install python-shapely
+sudo apt install python-booleano
+pip install booleano
+
+export OGR_ENABLE_PARTIAL_REPROJECTION=TRUE
+python jqvmap.py config/minimal.json
+```
+
 #### Step #1:
 
 Download & Install Python by clicking one of the Download Python buttons on the [Python Website](https://www.python.org/downloads/).  We are using `v2.7.10`.
