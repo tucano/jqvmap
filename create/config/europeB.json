@@ -1,14 +1,16 @@
 [
   {
     "name": "read_data",
-    "file_name": "./source/Europe/Europe.shp"
+    "file_name": "./source/natural_earth_vector/50m_cultural/ne_50m_admin_0_countries_lakes.shp",
+    "filter": "CONTINENT = \"Europe\"",
+    "longitude0": 11.5
   },
   {
     "name": "write_data",
     "format": "jqvmap",
     "file_name": "./output/jquery.vmap.europe.js",
     "params": {
-      "code_field": "NAME",
+      "code_field": "SOV_A3",
       "name_field": "NAME",
       "name": "europe"
     }

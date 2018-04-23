@@ -7,11 +7,11 @@
   {
     "name": "write_data",
     "format": "jqvmap",
-    "file_name": "./output/jquery.vmap.minimal.js",
+    "file_name": "./output/jquery.vmap.remove.js",
     "params": {
       "code_field": "SOV_A3",
-      "name_field": "SOV_A3",
-      "name": "minimal"
+      "name_field": "CONTINENT",
+      "name": "remove"
     }
   }
 ]
