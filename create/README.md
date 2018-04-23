@@ -24,22 +24,7 @@ You will need to have the following installed:
 Installing Software:
 ---
 
-__UBUNTU:__
-
-Core:
-
-```bash
-sudo apt-get install libfontconfig
-sudo apt install nodejs
-sudo apt install npm
-sudo ln -s `which nodejs` /usr/bin/node
-npm install
-grunt test
-grunt build
-```
-
-
-Create:
+Ubuntu:
 
 ```bash
 sudo apt install python2.7

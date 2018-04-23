@@ -210,6 +210,7 @@ jQuery('#vmap').vectorMap({
 If the pin mode is "id" then the parameter "pins" contains the value of "id" attribute of the html (DOM) elements to be placed as pins.
 Example:
 
+
 ```html
 <script>
   jQuery('#vmap').vectorMap({
@@ -499,3 +500,27 @@ Custom Maps
 ======
 
 So you want to create your own maps, or change some existing ones.  Awesome.  Make sure to check out [./create/README.md](./create) for details on how to do this.
+
+Devel
+=====
+
+__UBUNTU:__
+
+Core:
+
+```bash
+sudo apt-get install libfontconfig
+sudo apt install nodejs
+sudo apt install npm
+sudo ln -s `which nodejs` /usr/bin/node
+npm install
+grunt test
+grunt build
+```
+
+OSX:
+
+```
+cd node_modules/phantomjs/lib/phantom/
+upx -d bin/phantomjs
+```
