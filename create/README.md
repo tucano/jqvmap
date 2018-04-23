@@ -129,6 +129,7 @@ If you would like to test the sample map config files we have in this project, y
 4. Europe:
  * https://tapiquen-sig.jimdo.com/english-version/free-downloads/europe/
  * https://tapiquen-sig.jimdo.com/app/download/5502525659/Europe.rar?t=1455822996
+ * https://tapiquen-sig.jimdo.com/english-version/free-downloads/americas/
 
 Creating Maps
 ---
