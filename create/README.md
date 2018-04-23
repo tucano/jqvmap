@@ -126,6 +126,9 @@ If you would like to test the sample map config files we have in this project, y
 
 3. [New York - Borough Boundaries (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nybb_15d.zip) from the [NYC.gov](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml) website.  Unzip the `nybb_15d.zip` file and copy the entire `nybb_15d` folder to the `./create/source` folder in this project.
 
+4. Europe:
+ * https://tapiquen-sig.jimdo.com/english-version/free-downloads/europe/
+ * https://tapiquen-sig.jimdo.com/app/download/5502525659/Europe.rar?t=1455822996
 
 Creating Maps
 ---

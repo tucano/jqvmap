@@ -1,0 +1,16 @@
+[
+  {
+    "name": "read_data",
+    "file_name": "./source/Europe/Europe.shp"
+  },
+  {
+    "name": "write_data",
+    "format": "jqvmap",
+    "file_name": "./output/jquery.vmap.europe.js",
+    "params": {
+      "code_field": "NAME",
+      "name_field": "ORGN_NAME",
+      "name": "europe"
+    }
+  }
+]
